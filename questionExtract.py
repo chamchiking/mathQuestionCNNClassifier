@@ -117,7 +117,7 @@ class QuestionExtractor:
         return text
 
 if __name__ == "__main__":
-    path = "/Users/jonghyukjung/Desktop/2020년 2학기/딥러닝의 기초/Project/문제집/"
+    path = "/Users/dev/Desktop/2020년 2학기/딥러닝의 기초/Project/문제집/"
     path = path + "6.도함수의 활용.pdf"
     questionExtractor = QuestionExtractor()
     questions = questionExtractor.getQuestionsInPDF(path)
